@@ -1,0 +1,56 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+build/
+*.test
+*.out
+
+# Build directory output
+/bin/
+/dist/
+
+# Dependency directories
+/vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.prof
+*.pprof
+
+# Dependency directories
+vendor/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive pprof profile files
+*.prof
+*.pb.gz
+*.pb
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# test files with sensitive data
+tests/
+examples/testdata/
+build/
